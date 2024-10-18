@@ -20,9 +20,8 @@ export default async function Hero() {
             ropa top con precios top
           </h1>
           <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-            nosotros vendemos solo los productos mas exclusivos y de alta
-            calidad para ti. somos los mejores asi que ven y compra con
-            nosotros.
+            los productos más exclusivos y de alta calidad, simplemente los
+            mejores.
           </p>
         </div>
 
