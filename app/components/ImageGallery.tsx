@@ -41,7 +41,7 @@ export default function ImageGallery({ images }: iAppProps) {
         />
 
         <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">
-          Sale
+          venta
         </span>
       </div>
     </div>

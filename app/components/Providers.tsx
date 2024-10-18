@@ -14,7 +14,7 @@ export default function CartProvider({ children }: { children: ReactNode }) {
       currency="USD"
       billingAddressCollection={false}
       shouldPersist={true}
-      language="en-US"
+      language="es-MX"
     >
       {children}
     </USCProvider>
