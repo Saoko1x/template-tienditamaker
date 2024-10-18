@@ -55,7 +55,7 @@ export default async function ProductPge({
               </Button>
 
               <span className="text-sm text-gray-500 transition duration-100">
-                56 Ratings
+                56 reseñas
               </span>
             </div>
 
@@ -70,18 +70,18 @@ export default async function ProductPge({
               </div>
 
               <span className="text-sm text-gray-500">
-                Incl. Vat plus shipping
+                incluye impuestos y envío
               </span>
             </div>
 
             <div className="mb-6 flex items-center gap-2 text-gray-500">
               <Truck className="w-6 h-6" />
-              <span className="text-sm">2-4 Day Shipping</span>
+              <span className="text-sm">2-4 días de envío</span>
             </div>
 
             <div className="flex gap-2.5">
               <AddToBag
-                currency="USD"
+                currency="MXN"
                 description={data.description}
                 image={data.images[0]}
                 name={data.name}
@@ -90,7 +90,7 @@ export default async function ProductPge({
                 price_id={data.price_id}
               />
               <CheckoutNow
-                currency="USD"
+                currency="MXN"
                 description={data.description}
                 image={data.images[0]}
                 name={data.name}
